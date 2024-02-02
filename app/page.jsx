@@ -56,6 +56,58 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
+
+      {/* CARD */}
+      <div className='grid gap-4 py-4 '>
+        <div className='p-8 bg-[#0D0D0D] max-h-screen rounded-xl'>
+          <div className='pb-6'>
+            <h1 className='text-3xl font-extrabold font-raleway'>Diverse</h1>
+            <p className='text-2xl font-light'>
+              Embrace Different Artistic Expressions
+            </p>
+          </div>
+          <div className='overflow-auto h-72'>
+            <img
+              src='/images/render-sahal.jpg'
+              alt=''
+              className='object-cover w-full h-full rounded-xl'
+            />
+          </div>
+        </div>
+        <div className='grid gap-4 md:grid-cols-2'>
+          <div className='p-8 bg-[#0D0D0D] max-h-screen rounded-xl'>
+            <div className='pb-6'>
+              <h1 className='text-3xl font-extrabold font-raleway'>
+                Supportive
+              </h1>
+              <p className='text-2xl font-light'>Help Artist thrive</p>
+            </div>
+            <div className='overflow-auto h-72'>
+              <img
+                src='/images/render-sahal.jpg'
+                alt=''
+                className='object-cover w-full h-full rounded-xl'
+              />
+            </div>
+          </div>
+          <div className='p-8 bg-[#0D0D0D] max-h-screen rounded-xl'>
+            <div className='pb-6'>
+              <h1 className='text-3xl font-extrabold font-raleway'>
+                Explorative
+              </h1>
+              <p className='text-2xl font-light'>Discover unseen art forms</p>
+            </div>
+            <div className='overflow-auto h-72'>
+              <img
+                src='/images/render-sahal.jpg'
+                alt=''
+                className='object-cover w-full h-full rounded-xl'
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*CARD */}
     </>
   );
 }
