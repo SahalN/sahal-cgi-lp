@@ -3,8 +3,8 @@
 export default function LandingPage() {
   return (
     <>
-      <div className='py-4 font-bold font-raleway'>
-        <h1>Sahal's Collection</h1>
+      <div className='py-4 mt-4 font-bold font-raleway md:mt-44 '>
+        <h1 className='pb-4 text-[#EB5E28]'>Sahal's Collection</h1>
         <div className='grid grid-cols-2 gap-4 md:grid-cols-3'>
           <div className='grid gap-4'>
             <div>
@@ -58,7 +58,7 @@ export default function LandingPage() {
       </div>
 
       {/* CARD */}
-      <div className='grid gap-4 py-4 '>
+      <div className='grid gap-4 py-4 mt-4 md:mt-44'>
         <div className='p-8 bg-[#0D0D0D] max-h-screen rounded-xl'>
           <div className='pb-6'>
             <h1 className='text-3xl font-extrabold font-raleway'>Diverse</h1>
@@ -68,7 +68,7 @@ export default function LandingPage() {
           </div>
           <div className='overflow-auto h-72'>
             <img
-              src='/images/render-sahal.jpg'
+              src='/images/1.png'
               alt=''
               className='object-cover w-full h-full rounded-xl'
             />
@@ -84,7 +84,7 @@ export default function LandingPage() {
             </div>
             <div className='overflow-auto h-72'>
               <img
-                src='/images/render-sahal.jpg'
+                src='/images/2.png'
                 alt=''
                 className='object-cover w-full h-full rounded-xl'
               />
@@ -99,7 +99,7 @@ export default function LandingPage() {
             </div>
             <div className='overflow-auto h-72'>
               <img
-                src='/images/render-sahal.jpg'
+                src='/images/3.png'
                 alt=''
                 className='object-cover w-full h-full rounded-xl'
               />
@@ -108,6 +108,45 @@ export default function LandingPage() {
         </div>
       </div>
       {/*CARD */}
+
+      <div className='grid grid-cols-1 gap-4 mt-4 md:grid-cols-3 md:mt-44'>
+        <div className='p-8 bg-[#0D0D0D] max-h-screen  rounded-xl text-left  text-xl '>
+          <div className='pb-6 '>
+            <img src='/images/1pp.png' alt='' className='w-20' />
+          </div>
+          <div>
+            <p>ArtGalleryHub changed my art exploration journey!</p>
+          </div>
+          <div>
+            <p className='mt-5 md:mt-52'>Steve Roger</p>
+          </div>
+        </div>
+        <div className='p-8 bg-[#0D0D0D] max-h-screen  rounded-xl text-left  text-xl '>
+          <div className='pb-6 '>
+            <img src='/images/2pp.png' alt='' className='w-20' />
+          </div>
+          <div>
+            <p>Wide range of stunning artwork. Simply mesmerizing!</p>
+          </div>
+          <div>
+            <p className='mt-5 md:mt-52'>John Smith</p>
+          </div>
+        </div>
+        <div className='p-8 bg-[#0D0D0D] max-h-screen rounded-xl text-left  text-xl  '>
+          <div className='pb-6 '>
+            <img src='/images/3pp.png' alt='' className='w-20' />
+          </div>
+          <div>
+            <p>Love the support this platform gives to artists</p>
+          </div>
+          <div>
+            <p className='mt-5 md:mt-52'>Linda Johnson</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div></div>
+      </div>
     </>
   );
 }
