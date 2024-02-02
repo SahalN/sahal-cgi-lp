@@ -6,7 +6,11 @@
 module.exports = {
   content: ["./app/**/*.{jsx,tsx}", "./components/**/*.{jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        raleway: ["var(--font-raleway)", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
