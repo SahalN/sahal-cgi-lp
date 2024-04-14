@@ -30,7 +30,7 @@ I'm Sahal, a 3D artist passionate about creating captivating visuals through Ble
 
 Stay updated with my latest projects and insights:
 
-- Connect with me on [LinkedIn]([https://linkedin.com/in/sahalcgi](https://www.linkedin.com/in/muhammadsahalnurdin/))
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/muhammadsahalnurdin/)
 
 ## License
 
